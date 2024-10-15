@@ -53,7 +53,7 @@ const passport = require("./passport");
 // Set up session middleware
 app.use(
   session({
-    secret: "ayush123", // Replace with your own secret key
+    secret: "user123", // Replace with your own secret key
     resave: false,
     saveUninitialized: true,
   })
