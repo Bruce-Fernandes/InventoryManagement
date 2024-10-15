@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 const db =
-  "mongodb+srv://aayushhariya999:charyush141@cluster0.eurmdeg.mongodb.net/Inventory-app?retryWrites=true&w=majority";
+  "mongodb+srv://bruce24:admin24.eurmdeg.mongodb.net/Inventory-app?retryWrites=true&w=majority";
 mongoose
   .connect(db)
 
